@@ -112,6 +112,7 @@ def masked_prompt(cls_names, model, tokenizer, mode='hybrid', topk=3):
             'color': f'[CLS] The typical color of {cls_name} is [MASK]. [SEP]',
             'shape': f'[CLS] The typical shape of {cls_name} is [MASK]. [SEP]',
             #'def': f'{cls_name} is a  . [SEP]',
+            #其他attribute
         }
 
         elif mode == 'location':
